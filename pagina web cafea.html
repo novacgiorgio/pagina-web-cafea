@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coffee Shop</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #2d1e16;
+                color: #f5e0c3;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 0;
+                padding: 0;
+            }
+
+            .header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: rgba(0, 0, 0, 0.6);
+                padding: 15px 30px;
+                width: 80%;
+                max-width: 900px;
+                border-radius: 15px;
+                margin-top: 20px;
+            }
+
+            .coffee-logo {
+                width: 50px;
+                height: auto;
+                border-radius: 50%;
+            }
+
+            .header h1 {
+                margin: 0;
+                font-size: 28px;
+                color: #d4a373;
+            }
+
+            .nav a {
+                color: #f5e0c3;
+                text-decoration: none;
+                font-size: 18px;
+                margin-left: 20px;
+                transition: color 0.3s;
+                cursor: pointer;
+            }
+
+            .nav a:hover {
+                text-decoration: underline;
+                color: #d4a373;
+            }
+
+            .content {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 80%;
+                max-width: 900px;
+                margin-top: 50px;
+                gap: 20px;
+            }
+
+            .container1 {
+                max-width: 50%;
+            }
+
+            .best-coffee {
+                font-family: 'Brush Script MT', cursive;
+                color: #d4a373;
+                font-size: 36px;
+                font-weight: 800;
+                margin-bottom: 5px;
+            }
+
+            .text1 {
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+
+            .buttons {
+                margin-top: 20px;
+                display: flex;
+                gap: 15px;
+            }
+
+            .order-now, .contact-us {
+                border: none;
+                font-weight: 700;
+                width: 120px;
+                height: 45px;
+                border-radius: 25px;
+                font-size: 16px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+            }
+
+            .order-now {
+                background-color: #d4a373;
+                color: #2d1e16;
+                cursor: pointer;
+            }
+
+            .order-now:hover {
+                background-color: #b5835a;
+                transform: scale(1.05);
+            }
+
+            .contact-us {
+                background-color: transparent;
+                border: 2px solid #f5e0c3;
+                color: #f5e0c3;
+                cursor: pointer;
+            }
+
+            .contact-us:hover {
+                background-color: #b5835a;
+                color: #2d1e16;
+                transform: scale(1.05);
+            }
+
+            .coffee-picture {
+                width: 100%;
+                max-width: 280px;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <img class="coffee-logo" src="https://www.citypng.com/public/uploads/preview/brown-coffee-cup-logo-design-hd-png-701751694776791z8t9jck4mz.png" alt="Coffee Logo">
+            <h1>Coffee</h1>
+            <nav class="nav">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <main class="content">
+            <section class="container1">
+                <h1 class="best-coffee">Best Coffee</h1>
+                <h3 class="text1">Make your day great with our special coffee!</h3>
+                <p>Welcome to our coffee paradise.</p>
+                <div class="buttons">
+                    <button class="order-now">Order now</button>
+                    <button class="contact-us">Contact us</button>
+                </div>
+            </section>
+            <img class="coffee-picture" src="https://img.freepik.com/free-psd/delicious-coffee-cup-isolated_23-2151806499.jpg" alt="Delicious coffee cup">
+        </main>
+    </body>
+</html>
